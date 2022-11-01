@@ -1,0 +1,7 @@
+.list-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 294.5px;
+    /* text-decoration: line-through; */
+
+}
