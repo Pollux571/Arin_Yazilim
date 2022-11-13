@@ -120,7 +120,7 @@ console.log(gurcan1.getMoney()); //  Para kazan mubarek Suleyman
 // ! simdi burda super metohodsuz ve super methodla hata ayiklama gorucez ve engeneerada propertyler tanimliyicaz farkli bi ornek
 
 class Person3 {
-  // ! constructorun ilk yaptigi is nesne olusturmak ve onu this ile baglamak
+  // ! constructorun ilk yaptigi is nesne olusturmak ve onu this ile baglamak yani this demek Person3 demek
   constructor(name, surname, age) {
     this.name = name;
     this.surname = surname;
@@ -136,7 +136,7 @@ class Engineer3 extends Person3 {
   constructor(name, surname, age, job) {
     super(name, surname, age); // todo:  o yuzdende this.name,this.surname,this.age leri almak icin biz super medonu kullaniyoruz. Person3 den aliyoruz.
     //  this.name = name;
-    //  this.surname = surname;  // ! burayi acarsak ve supei kaptirsak hata aliriz
+    //  this.surname = surname;  // ! burayi acarsak ve superi kaptirsak hata aliriz
     //  this.age = age;
     //  this.job = job;
   }
